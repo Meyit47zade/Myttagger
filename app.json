@@ -8,8 +8,8 @@
     "plugins",
     "telegram-Mention",
   ],
-  "repository": "https://github.com/Meyit47/MytGrupBot",
-  "website": "https://github.com/Meyit47/MytGrupBot", 
+  "repository": "https://github.com/Meyit47zade/MytGrupBot",
+  "website": "https://github.com/Meyit47zade/MytGrupBot", 
   "success_url": "t.me/S1F1RB1RCHAT",
   "env": {
     "ENV": {
@@ -18,15 +18,15 @@
     },
     "TOKEN": {
       "description": "Bot Jetonunuz.",
-      "value": "6803669543:AAF3IVN9OQvi0DFESZSX2Nc4W2YGFBO6__c"
+      "value": "6803669543:AAFNzstLnDW4Seq7t3M-ReK1tBu9POuv9xo"
     },
     "APP_ID": {
       "description": "Bu değeri my.telegram.org'dan alın! Lütfen çalmayın",
-      "value": "2930013"
+      "value": "26953933"
     },
     "API_HASH": {
       "description": "Bu değeri my.telegram.org'dan alın! Lütfen çalmayın",
-      "value": "7cab92dcd979add511b79d693775e17d"
+      "value": "4bc2a58e7308a9da35bae33f68691d74"
     }
   },
   "addons": [
