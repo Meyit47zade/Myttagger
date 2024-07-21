@@ -15,11 +15,11 @@ async def start(event):
                        Button.inline("Komutlar", data="komutlar")
                       ],
                       [
-                       Button.url('➕ GRUBUNA EKLE', 'http://t.me/MytGrupBot?startgroup=a'),
-                       Button.url('💬 CHAT', 'https://t.me/S1F1RB1RCHAT')
+                       Button.url('➕ GRUBUNA EKLE', 'http://t.me/MytGroupBot?startgroup=a'),
+                       Button.url('💬 CHAT', 'https://t.me/DelularSohbet')
                       ],
                       [
-                       Button.url('🇹🇷 Sahibim', 'https://t.me/Meyit47')
+                       Button.url('🇹🇷 Sahibim', 'https://t.me/Meyitzade')
                       ],
                     ),
                     link_preview=False)
@@ -33,16 +33,16 @@ async def start(event):
 async def handler(event):
     async for usr in Maho.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.edit(f"**Merhaba Benim adım MytTagger\nGörevim Üyeleri Etiketlemek\nKomutlar için Komutlar Düğmesine Basın.**", buttons=(
+     await event.edit(f"**Merhaba Benim adım MytGroupBot\nGörevim Üyeleri Etiketlemek\nKomutlar için Komutlar Düğmesine Basın.**", buttons=(
                       [
                        Button.inline("Komutlar", data="komutlar")
                       ],
                       [
-                       Button.url('🔳 GRUBUNA EKLE', 'http://t.me/MytGrupBot?startgroup=a'),
-                       Button.url('💬 CHAT', 'https://t.me/S1F1RB1RCHAT')
+                       Button.url('🔳 GRUBUNA EKLE', 'http://t.me/MytGroupBot?startgroup=a'),
+                       Button.url('💬 CHAT', 'https://t.me/DelularSohbet')
                       ],
                       [
-                       Button.url('🇹🇷 Sahibim', 'https://t.me/Meyit47')
+                       Button.url('🇹🇷 Sahibim', 'https://t.me/Meyitzade')
                       ],
                     ),
                     link_preview=False)
